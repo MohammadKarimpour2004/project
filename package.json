@@ -7,9 +7,15 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "bulma": "^0.9.3",
+    "console": "^0.7.2",
     "core-js": "^3.6.5",
+    "sass": "^1.49.9",
+    "sass-loader": "^10.2.1",
+    "sweetalert": "^2.1.2",
     "vue": "^2.6.11",
-    "vue-router": "^3.2.0"
+    "vue-router": "^3.2.0",
+    "vue2-leaflet": "^2.7.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.15",
