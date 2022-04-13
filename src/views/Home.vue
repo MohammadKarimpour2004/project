@@ -53,7 +53,7 @@ export default {
     //submit form and go to next page
     post(){
       if(this.name != null && this.family != null && this.phone != null && this.tel != null && this.location != null){
-        if(this.phone.length == 11 ){
+        if(this.phone.length == 11 && this.tel.length == 11){
 
           //create object wath data for submit form
           let obj = {
